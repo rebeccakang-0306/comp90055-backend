@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Digiceipt App project for workshops in INFO30005",
   "main": "app.js",
+  "heroku": "NODE_ENV=production node index",
   "scripts": {
-    "start": "node app.js",
+    "start": "web: npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Digiceipt",
